@@ -1,0 +1,60 @@
+body{
+	margin: 0;
+	font-style: italic;
+	font-family: sans-serif;
+	background: url(fondo.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1{
+	color:  #fff;
+	text-align: center;
+}
+
+.formato-registrar{
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	background: #fff;
+    border-radius: 8px;
+}
+
+.formato-titulo{
+	background: #1B0088;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	font-style: italic;
+	font-weight: 100;
+	font-size: 30px;
+	border-radius: 7px 7px 0 0;
+	border-bottom: 5px solid #ED1650;
+}
+
+.form-group{
+	color: #1B0088;
+	font-style: italic;
+}
+
+footer {
+	 background: #1B0088;
+  	 border-color: #38B44A;
+  	 border-radius: 0 0 7px 7px ;
+	 color:#fff;
+}
+
+.btn-registrar {
+  color: #fff;
+  background: #ED1650;
+  border-color: #1B0088;
+  cursor: pointer;
+  margin: auto;
+  text-align: center;
+  padding: 10px 40px;
+}
+.form-link{
+	width: 100%;
+	margin: 7px;
+	text-align: center;
+	font-size: 15px;
+}

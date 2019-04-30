@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario DiegoAgreda</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<link rel="stylesheet" href="estilos.css">
+</head>
+
+
+	<body>
+		<h1>Pasto Ventas</h1>
+		<form action="" method="" class="formato-registrar">
+			<div class="col-xs-12 formato-titulo">
+				<h2>Registro</h2>
+				<h5><strong>¿Eres nuevo en Pasto Ventas? Regístrate a continuación.</strong></h5>	
+			</div>
+			
+				<div class="col-xs-12- col-sm-6">
+						
+						<div class="form-group">
+							<label for="nombre">Mi nombre es:</label>
+							<input class="form-control" id="nombre" type="text" required placeholder="Nombres" pattern="[^0-9]{1,100}" title="El nombre no puede incluir numeros">
+						</div>
+							
+						<div class="form-group">
+							<label for="fechanacimiento">Mi fecha de nacimiento es:</label>
+							<input class="form-control" id="fechanacimiento" type="date" max="2001-04-16" required placeholder="Fecha de nacimiento">
+						</div>
+
+						<div class="form-group">
+							<label for="e-mail">Mi dirección de e-mail es:</label>
+							<input class="form-control" id="e-mail" type="email" required placeholder="e-mail">
+						</div>
+
+						<div class="form-group">
+							<label for="celular">Mi número de celular es:</label>
+							<input class="form-control" id="celular" type="tel" pattern="[0-9]{10}" placeholder="Celular (opcional)" title="El número de celular debe tener 10 caracteres ej:3102552624"> 
+						</div>
+						<div class="clearfix visible-xs"></div>
+					
+				</div>	
+
+			
+				<div class="col-xs-12 col-sm-6">
+					<div class="form-group">
+						<p>
+							<strong>Protege tu información con una contraseña:</strong>
+						</p>
+						<input type="password" name="password" class="form-control" required>
+					</div>
+			
+					<div class="form-group">
+						<p >
+							<strong>Repite tu contraseña:</strong>
+						</p>
+						<input type="password" name="password2" class="form-control" required>
+					</div>
+			
+					<div class="form-group">
+						<p>
+							<strong>Si deseas puedes subir una foto de perfil</strong>
+						</p>
+					</div>
+				
+					<div class="form-group">
+						<label for="fperfil">Seleccionar foto:</label>
+						<input class="form-control" id="fperfil" type="file" accept="image/png">
+						<small>Sólo se acepta en formato .png</small>
+					</div>			
+				</div>
+		
+		
+		    <div class="form-group form-link">			
+					<input type="submit" value="Registrar" class="btn-registrar">
+			</div>
+			<p class="form-link">¿Ya tienes una cuenta? <a href="#">Ingresa aquí</a></p> 
+				<footer>
+					<div class="container-fluid">
+						<h8>Realizado por: Diego Fernando Agreda Hidalgo </h8>
+					</div>
+				</footer>
+		</form>
+		<script src="https://code.jquery.com/jquery-latest.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>	
+	</body>
+</html>
